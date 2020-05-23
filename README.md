@@ -60,7 +60,7 @@ Docker   | corrente
 ```
 $ docker pull jeffersonmf/backend-challenge:latest
 
-$ docker run -t -d -p 9000:9000 backend-challenge
+$ docker run -t -d -p 9000:9000 jeffersonmf/backend-challenge
 
 $ teste no browser a seguinte url:   http://localhost:9000/monitoring
 Deve aparecer a mensagem:  Backend Challenge is up!!! e então siga com os testes....
