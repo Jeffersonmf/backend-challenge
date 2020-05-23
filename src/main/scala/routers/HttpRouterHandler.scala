@@ -19,7 +19,7 @@ class HttpRouterHandler(context: ServerContext) extends RequestHandler(context) 
       Callback.successful(request.ok("Backend Challenge is up!!!"))
     }
     case request @ Get on Root / "validate" / password => {
-      Callback.successful(request.ok(ByteString(HttpRouterImpl.validatePassword(password))))
+      Callback.successful(request.ok(ByteString(HttpRouterImpl.validatePassword(password).toString())))
     }
   }
 }

@@ -8,7 +8,7 @@ sbtVersion := "1.3.8"
 
 val sparkVersion = "2.4.4"
 
-mainClass in (Compile, run) := Some("teste.NASALogsApp")
+mainClass in (Compile, run) := Some("teste.BackendChallenge")
 
 javacOptions ++= Seq("-source", "1.8", "-target", "1.8")
 

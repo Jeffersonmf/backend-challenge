@@ -18,5 +18,6 @@ WORKDIR /root
 EXPOSE 9000
 
 RUN sbt compile
+RUN sbt test
 CMD sbt run
 
